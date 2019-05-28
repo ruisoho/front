@@ -7,16 +7,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>Undercode development commenced!</h1>
+        <h3>Hello guest! This community is under development. Please do check back later</h3>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="link"
+          href="https://github.com/undercodeorg"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hey! Wanna contribute to Open Source? It's your call!
         </a>
       </header>
     </div>

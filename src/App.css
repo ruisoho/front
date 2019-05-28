@@ -1,0 +1,27 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 90%;
+}
+
+.App-header {
+  background-color: #242582 ;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.link {
+  color: #fff;
+}

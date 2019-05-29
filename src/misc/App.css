@@ -13,6 +13,7 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 15px;
+  margin: 15px 0;
 }
 
 .nav ul {
@@ -28,6 +29,10 @@
   color: #333;
 }
 
+.nav li a:hover {
+  border-bottom: 1px solid #333;
+}
+
 .spacing {
   margin: 80px 0;
 }
@@ -35,10 +40,6 @@
 #highlight {
   background: #ff4e00;
   color: #fff;
-}
-
-.nav li a:hover {
-  border-bottom: 1px solid #333;
 }
 
 #hero__heading {

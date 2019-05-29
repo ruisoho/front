@@ -2,8 +2,10 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="wrapper">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi nisi libero labore reprehenderit tempora voluptatibus aliquam omnis ullam odit nostrum earum, quibusdam totam quasi dolores veritatis. Quas, fugit? Modi?</p>
+    <div className="wrapper" >
+      <div className="spacing">
+      <h1 id="hero__heading">We strive to make you <br/ >a better developer <br /> or designer</h1>
+      </div>
     </div>
   )
 }

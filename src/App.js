@@ -1,25 +1,15 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import Navbar from './components/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div className="wrapper">
-        <h1>Undercode development commenced!</h1>
-        <h3>Hello guest! This community is under development. Please do check back later</h3>
-        <a
-          className="link"
-          href="https://github.com/undercodeorg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        Want to contribute to Open Source? It's your call!
-        </a>
-        </div>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+      <Navbar />
+      </div>
+    )
+  }
 }
 
 export default App;

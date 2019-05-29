@@ -1,25 +1,27 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import Navbar from './components/Navbar';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import About from './components/About';
+import Resource from './components/Resource';
+import Updates from './components/Updates';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div className="wrapper">
-        <h1>Undercode development commenced!</h1>
-        <h3>Hello guest! This community is under development. Please do check back later</h3>
-        <a
-          className="link"
-          href="https://github.com/undercodeorg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        Want to contribute to Open Source? It's your call!
-        </a>
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <div className="App">
+        <Navbar />
+          <Route exact path="/" component={ Home } />
+          <Route path="/about" component={ About } />
+          <Route path="/contact" component={ Contact } />
+          <Route path="/resource" component={ Resource } />
+          <Route path="/updates" component={ Updates } />
         </div>
-      </header>
-    </div>
-  );
+      </BrowserRouter>
+    )
+  }
 }
 
 export default App;
